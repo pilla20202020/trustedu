@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600&family=Josefin+Sans:ital,wght@0,100;0,400;0,700;1,500&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+.main-slider .carousel img {
+    height: 85vh;
+    object-fit: cover;
+}
+
+.headings h2 {
+    font-size: 3rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.page-sections {
+    padding: 30px 50px;
+    background-image: url('img/main-slider.jpg');
+    background: no-repeat;
+}
+
+.page-sections .card img {
+    min-height: 200px;
+    object-fit: cover;
+}
+
+.navbar {
+    position: absolute;
+    z-index: 10;
+    background: rgba(255, 255, 255, 0);
+    width: 100%;
+    transition: all ease 0.4s;
+    padding: 10px 50px;
+}
+
+.navbar a {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    font-weight: 500;
+    font-family: 'Cabin', sans-serif;
+}
+
+.navbar li {
+    padding: 0px 10px;
+}
+
+.slider-desc {
+    position: absolute;
+    top: 120px;
+    left: 80px;
+    z-index: 1;
+}
+
+.universities img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    align-self: center;
+}
+
+.universities .card {
+    border: none;
+}
+
+.slider-desc .info {
+    padding: 50px;
+}
+
+.slider-desc h3 {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.slider-desc h2 {
+    font-family: 'Cabin', sans-serif;
+    font-size: 4.5rem;
+    color: #fff;
+}
+
+.form {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.form input,
+select {
+    background-color: #fff;
+    height: 40px;
+    width: 100%;
+    border: 1px solid #888;
+}
+.carousel-control-prev {
+    left: -30px!important;
+}
+
+.form label {
+    color: #fff;
+    font-weight: 400;
+}
+
+.form h3 {
+    color: rgb(51, 51, 192);
+    font-weight: 600;
+    font-size: 1.8rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.form {
+    border-top: 10px solid rgb(175, 57, 2);
+    border-bottom: 10px solid rgb(175, 57, 2);
+    border-radius: 12px;
+}
+
+.form button {
+    background-color: rgb(175, 57, 2);
+    width: 20%;
+    color: #fff;
+    font-family: 'Josefin Sans', sans-serif;
+}
